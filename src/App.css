@@ -1,5 +1,8 @@
 :root {
+  --clr-1: white;
+  --clr-2: #274bba;
   font-size: 62.5%;
+  background: var(--clr-2);
 }
 *,
 *::before,
@@ -13,11 +16,14 @@
 body {
   height: 100%;
   width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 2rem;
+  color: var(--clr-1);
 }
 
 .home-flexWrapper {
-  min-height: 100vh;
+  padding-bottom: 1.5rem;
+  height: 100svh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -27,12 +33,37 @@ body {
 .logo-wrapper {
   margin: auto;
   margin-top: -2rem;
-  width: clamp(16rem, 28%, 23rem);
+  width: clamp(23rem, 87vw, 90rem);
+  /* width: min(70%, 28rem); */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
 }
-.logo-wrapper > img {
+/* .logo-wrapper > img {
   width: 100%;
+} */
+.logo-wrapper > img:first-of-type {
+  width: 100%;
+}
+.logo-wrapper > img:not(:first-of-type) {
+  margin: auto;
+  width: max(70%, 22rem);
 }
 
 p {
+  margin-top: 2.1rem;
+  text-align: center;
+  font-size: clamp(1.6rem, 4vw, 1.8rem);
+}
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+footer {
+  width: 100%;
+  font-size: 1.3rem;
   text-align: center;
 }

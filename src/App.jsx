@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import benchedLogo from './assets/benched-logo.png';
+import logo2Img from './assets/logo-2-img.png';
+import logo2Text from './assets/logo-2-text.png';
 import './App.css';
 
 function App() {
@@ -12,10 +14,12 @@ function App() {
 
         <div class="content-wrapper">
           <div class="logo-wrapper">
-            <img src={benchedLogo} alt="Benched logo" />
+            {/* <img src={benchedLogo} alt="Benched logo" /> */}
+            <img src={logo2Img} alt="Benched logo image" />
+            <img src={logo2Text} alt="Benched logo text" />
           </div>
           <p>
-            <a href="mailto:contact@dumbdraper.com" target="_blank">
+            <a href="mailto:contact@benched.co" target="_blank">
               Contact us
             </a>
           </p>

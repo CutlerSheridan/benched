@@ -6,6 +6,8 @@ Used React for this in anticipation of the site becoming much bigger in time.
 
 #### TODO NEXT
 
+- add share preview code to head
+
 #### TODO LATER
 
 ##### Features
@@ -14,7 +16,17 @@ Used React for this in anticipation of the site becoming much bigger in time.
 
 ##### Style
 
+- make 'contact us' link a button
+
 #### CHANGELOG
+
+_0.1.1_
+
+- replace Benched logo with separate logo image and logo text assets
+- constrain each logo part's proportions
+- adjust logo sizing
+- make logo responsive
+- change email address used in "contact us" link
 
 _0.1.0_
 
