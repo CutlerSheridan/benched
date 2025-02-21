@@ -1,7 +1,6 @@
 import { useState } from 'react';
-import benchedLogo from './assets/benched-logo.png';
-import logo2Img from './assets/logo-2-img.png';
-import logo2Text from './assets/logo-2-text.png';
+import logoImg from './assets/logo-2-img.png';
+import logoText from './assets/logo-2-text.png';
 import './App.css';
 
 function App() {
@@ -14,9 +13,8 @@ function App() {
 
         <div className="content-wrapper">
           <div className="logo-wrapper">
-            {/* <img src={benchedLogo} alt="Benched logo" /> */}
-            <img src={logo2Img} alt="Benched logo image" />
-            <img src={logo2Text} alt="Benched logo text" />
+            <img src={logoImg} alt="Benched logo image" />
+            <img src={logoText} alt="Benched logo text" />
           </div>
           <p>
             <a href="mailto:contact@benched.co" target="_blank">
@@ -25,11 +23,7 @@ function App() {
           </p>
         </div>
 
-        <footer>
-          © 2025 | A{' '}
-          <a href="https://hugeconglomerate.co">Huge Conglomerate Co.</a>{' '}
-          Company
-        </footer>
+        <footer>© 2025 | Benched, LLC</footer>
       </div>
     </>
   );

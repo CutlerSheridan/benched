@@ -2,7 +2,7 @@
 
 ## Landing page for Benched
 
-Used React for this in anticipation of the site becoming much bigger in time.
+Used React for this in anticipation of the site becoming much bigger in time. Hosted at https://benched.co.
 
 #### TODO NEXT
 
@@ -14,9 +14,15 @@ Used React for this in anticipation of the site becoming much bigger in time.
 
 ##### Style
 
-- ? make 'contact us' link a button
-
 #### CHANGELOG
+
+_1.0.0_
+
+- make 'contact us' link a button
+- move contact button down
+- add contact button margin-top breakpoint for mobile
+- re-style contact button
+- add responsive breakpoint for landscape mobile view
 
 _0.2.0_
 
