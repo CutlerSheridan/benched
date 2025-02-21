@@ -20,6 +20,11 @@ Used React for this in anticipation of the site becoming much bigger in time.
 
 #### CHANGELOG
 
+_0.1.2_
+
+- add text font
+- adjust responsive sizing
+
 _0.1.1_
 
 - replace Benched logo with separate logo image and logo text assets

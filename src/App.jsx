@@ -9,11 +9,11 @@ function App() {
 
   return (
     <>
-      <div class="home-flexWrapper">
-        <div class="flex-padding"></div>
+      <div className="home-flexWrapper">
+        <div className="flex-padding"></div>
 
-        <div class="content-wrapper">
-          <div class="logo-wrapper">
+        <div className="content-wrapper">
+          <div className="logo-wrapper">
             {/* <img src={benchedLogo} alt="Benched logo" /> */}
             <img src={logo2Img} alt="Benched logo image" />
             <img src={logo2Text} alt="Benched logo text" />

@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Minion';
+  src: url('./assets/fonts/minion-pro-regular.ttf') format('truetype');
+  font-display: block;
+}
+@font-face {
+  font-family: 'Grold';
+  src: url('./assets/fonts/Grold-Regular.otf') format('opentype');
+  font-display: block;
+}
+
+:root {
+  --clr-1: white;
+  --clr-2: #274bba;
+  --font-1: 'Minion';
+  --font-2: 'Grold';
+  font-size: 62.5%;
+  background: var(--clr-2);
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+  font-family: inherit;
+}
+body {
+  height: 100%;
+  width: 100%;
+  font-family: var(--font-1), Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: var(--clr-1);
+}
