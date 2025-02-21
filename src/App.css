@@ -34,6 +34,14 @@ a {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
+a:active {
+  color: var(--clr-3);
+}
+@media only screen and (hover: hover) {
+  a:hover {
+    color: var(--clr-3);
+  }
+}
 
 footer {
   width: 100%;

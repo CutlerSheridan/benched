@@ -6,8 +6,6 @@ Used React for this in anticipation of the site becoming much bigger in time.
 
 #### TODO NEXT
 
-- add share preview code to head
-
 #### TODO LATER
 
 ##### Features
@@ -16,9 +14,14 @@ Used React for this in anticipation of the site becoming much bigger in time.
 
 ##### Style
 
-- make 'contact us' link a button
+- ? make 'contact us' link a button
 
 #### CHANGELOG
+
+_0.2.0_
+
+- add share preview code to index.html
+- make links grey on hover
 
 _0.1.2_
 
