@@ -3,8 +3,9 @@
   /* width: clamp(15rem, 43%, 27rem); */
   /* max-width: min(45%, 27rem); */
   max-width: 27rem;
+  display: flex;
   border-radius: 2rem;
-  background: red;
+  /* background: red; */
 }
 .poster-wrapper > img {
   width: 100%;
@@ -25,6 +26,16 @@
   border-radius: 2rem;
   /* background: rgb(252, 190, 200, 0.5); */
   background: linear-gradient(rgb(0, 0, 0, 0.85) 35%, rgb(0, 0, 0, 0.2));
+}
+.poster-hoverWrapper {
+  /* border: 5px solid purple; */
+  /* visibility: hidden; */
+  opacity: 0;
+  transition: all 0.2s;
+}
+.poster-wrapper:hover .poster-hoverWrapper {
+  /* visibility: visible; */
+  opacity: 1;
 }
 .poster-hoverContent {
   margin: auto;

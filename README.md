@@ -6,26 +6,36 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 
 #### TODO NEXT
 
-- make poster hover work
-- make poster image fill card
+- try getting header line curved near the logo
 
 #### TODO LATER
 
 ##### Features
 
+- add about section
+- add social links
+
 ##### Behavior
 
 - get compressed poster images
 - get poster description copy
+- get urls
+- get about text
+- get about links
 
 ##### Style
 
-- make logo line color match logo green
 - add logo line gradient
-- make logo responsive
 - make poster grid responsive
 
 #### CHANGELOG
+
+_1.2.3_
+
+- make poster hover work
+- make poster image fill card
+- make logo line color match logo green
+- make logo responsive
 
 _1.2.2_
 
