@@ -32,7 +32,13 @@ function App() {
             <img src={logoImg} alt="" />
           </header>
 
-          <div className="home-posterGrid"></div>
+          <div className="home-posterGrid">
+            <Poster
+              keyArt={swing}
+              description="This show is for all the golf-lovers out there"
+              url="https://youtube.com"
+            ></Poster>
+          </div>
         </div>
 
         <footer>© 2025 | Benched, LLC</footer>

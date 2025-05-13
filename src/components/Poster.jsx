@@ -1,13 +1,14 @@
 import './Poster.css';
 import { useRef } from 'react';
 
-const Poster = () => {
+const Poster = ({ keyArt, description, url }) => {
   return (
     <div className="poster-wrapper">
-      <img src="" alt="" />
+      <img src={keyArt} alt="" />
 
       <div className="poster-hoverWrapper">
-        <p>Description of a show, click below!</p>
+        <p>{description}</p>
+        <a href={url}>Click!</a>
       </div>
     </div>
   );
