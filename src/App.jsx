@@ -35,6 +35,7 @@ function App() {
           <div className="home-posterGrid">
             <Poster
               keyArt={swing}
+              title="Take a Swing"
               description="This show is for all the golf-lovers out there"
               url="https://youtube.com"
             ></Poster>

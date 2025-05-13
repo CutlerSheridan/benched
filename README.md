@@ -6,6 +6,7 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 
 #### TODO NEXT
 
+- add more posters
 - make poster hover work
 - make poster image fill card
 
@@ -25,6 +26,10 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 - make logo responsive
 
 #### CHANGELOG
+
+_1.2.1_
+
+- build poster hover content
 
 _1.2.0_
 

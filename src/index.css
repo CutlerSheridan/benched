@@ -15,7 +15,8 @@
   --clr-2: rgb(12, 12, 12);
   --clr-3: rgb(200, 200, 200);
   --clr-4: green;
-  --font-1: 'Minion';
+  /* --font-1: 'Minion'; */
+  --font-1: Arial;
   --font-2: 'Grold';
   font-size: 62.5%;
   background: var(--clr-2);
