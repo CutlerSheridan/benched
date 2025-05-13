@@ -5,7 +5,7 @@ import './App.css';
 import Poster from './components/Poster';
 import preppedPoster from './assets/posters/fully-prepped.png';
 import oldBallPoster from './assets/posters/old-ball.png';
-import swing from './assets/posters/swing.png';
+import swingPoster from './assets/posters/swing.png';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -34,11 +34,23 @@ function App() {
 
           <div className="home-posterGrid">
             <Poster
-              keyArt={swing}
+              keyArt={swingPoster}
               title="Take a Swing"
               description="This show is for all the golf-lovers out there"
               url="https://youtube.com"
-            ></Poster>
+            />
+            <Poster
+              keyArt={oldBallPoster}
+              title="Old Ball"
+              description="This ball sure is old"
+              url="https://youtube.com"
+            />
+            <Poster
+              keyArt={preppedPoster}
+              title="Fully Prepped"
+              description="If you're gonna play basketball, you better be prepped."
+              url="https://youtube.com"
+            />
           </div>
         </div>
 

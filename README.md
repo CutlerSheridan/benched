@@ -6,7 +6,6 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 
 #### TODO NEXT
 
-- add more posters
 - make poster hover work
 - make poster image fill card
 
@@ -24,8 +23,14 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 - make logo line color match logo green
 - add logo line gradient
 - make logo responsive
+- make poster grid responsive
 
 #### CHANGELOG
+
+_1.2.2_
+
+- add more posters
+- build poster grid
 
 _1.2.1_
 

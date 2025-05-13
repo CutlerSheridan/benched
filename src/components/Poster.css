@@ -1,6 +1,8 @@
 .poster-wrapper {
   position: relative;
-  width: clamp(15rem, 43%, 27rem);
+  /* width: clamp(15rem, 43%, 27rem); */
+  /* max-width: min(45%, 27rem); */
+  max-width: 27rem;
   border-radius: 2rem;
   background: red;
 }
