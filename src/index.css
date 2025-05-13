@@ -11,8 +11,10 @@
 
 :root {
   --clr-1: white;
-  --clr-2: #274bba;
+  /* --clr-2: #274bba; */
+  --clr-2: rgb(12, 12, 12);
   --clr-3: rgb(200, 200, 200);
+  --clr-4: green;
   --font-1: 'Minion';
   --font-2: 'Grold';
   font-size: 62.5%;

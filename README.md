@@ -6,15 +6,32 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 
 #### TODO NEXT
 
+- build out poster component
+
 #### TODO LATER
 
 ##### Features
 
 ##### Behavior
 
+- get compressed poster images
+- get poster description copy
+
 ##### Style
 
+- make logo line color match logo green
+- add logo line gradient
+
 #### CHANGELOG
+
+_1.1.0_
+
+- delete old main content
+- change clr-2 to black
+- put logo up top
+- add line across page behind logo
+- import posters
+- add poster component
 
 _1.0.0_
 
