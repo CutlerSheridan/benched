@@ -7,28 +7,32 @@
 }
 
 /* HEADER START */
-.home-divider {
-  position: relative;
+header {
+  --line-curve: 1rem;
   margin-top: 3rem;
   margin-bottom: 2rem;
   display: flex;
   align-items: center;
 }
-.home-divider::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
+.home-dividerLine {
   height: 0.4rem;
   background: var(--clr-4);
 }
-.home-divider > img {
-  position: relative;
-  margin-left: 3rem;
-  padding: 0 1.5rem;
-  max-width: min(25rem, 45%);
-  background: var(--clr-2);
+.home-dividerLine1 {
+  width: 6.5rem;
+  border-top-right-radius: var(--line-curve);
+  border-bottom-right-radius: var(--line-curve);
+}
+header > img {
+  padding-left: 1.5rem;
+  padding-right: 1.2rem;
+  width: min(25rem, 45%);
+}
+.home-dividerLine2 {
+  width: 100%;
+  border-top-left-radius: var(--line-curve);
+  border-bottom-left-radius: var(--line-curve);
+  background: linear-gradient(to right, var(--clr-4) 40%, var(--clr-5));
 }
 /* HEADER END */
 
@@ -73,14 +77,6 @@ a:active {
   gap: 1.3rem;
   justify-content: center;
 }
-/* .home-posterGrid {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  gap: 1.3rem;
-  flex-wrap: wrap;
-  background: pink;
-} */
 @media only screen and (min-width: 800px) {
   .home-posterGrid {
     --num-of-cols: 3;

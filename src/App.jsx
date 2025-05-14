@@ -15,7 +15,9 @@ function App() {
       <div className="home-flexWrapper">
         <div className="home-contentWrapper">
           <header className="home-divider">
-            <img src={logoImg} alt="" />
+            <div className="home-dividerLine home-dividerLine1"></div>
+            <img src={logoImg} alt="Benched logo" />
+            <div className="home-dividerLine home-dividerLine2"></div>
           </header>
 
           <div className="home-posterGrid">

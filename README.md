@@ -6,7 +6,7 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 
 #### TODO NEXT
 
-- try getting header line curved near the logo
+- add click button icon to posters
 
 #### TODO LATER
 
@@ -18,17 +18,20 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 ##### Behavior
 
 - get compressed poster images
+- coming soon or whatever
 - get poster description copy
 - get urls
 - get about text
-- get about links
-- is benched green different?
+- get social links
 
 ##### Style
 
-- add logo line gradient
-
 #### CHANGELOG
+
+_1.2.5_
+
+- make header line curved near the logo
+- add gradient to header line
 
 _1.2.4_
 
