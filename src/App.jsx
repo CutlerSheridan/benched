@@ -13,20 +13,6 @@ function App() {
   return (
     <>
       <div className="home-flexWrapper">
-        {/* <div className="flex-padding"></div> */}
-
-        {/* <div className="content-wrapper">
-          <div className="logo-wrapper">
-            <img src={logoImg} alt="Benched logo image" />
-            <img src={logoText} alt="Benched logo text" />
-          </div>
-          <p>
-            <a href="mailto:contact@benched.co" target="_blank">
-              Contact us
-            </a>
-          </p>
-        </div> */}
-
         <div className="home-contentWrapper">
           <header className="home-divider">
             <img src={logoImg} alt="" />
@@ -42,13 +28,13 @@ function App() {
             <Poster
               keyArt={oldBallPoster}
               title="Old Ball"
-              description="This ball sure is old"
+              description="This ball is old"
               url="https://youtube.com"
             />
             <Poster
               keyArt={preppedPoster}
               title="Fully Prepped"
-              description="If you're gonna play basketball, you better be prepped."
+              description="If you're gonna play basketball, you better be prepped.  It's the most fun sport on the planet.  Give me any sport and I'll pick basketball."
               url="https://youtube.com"
             />
           </div>

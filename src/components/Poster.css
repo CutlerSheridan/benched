@@ -6,6 +6,7 @@
   display: flex;
   border-radius: 2rem;
   /* background: red; */
+  /* border: 2px solid rgb(100, 100, 100, 0.3); */
 }
 .poster-wrapper > img {
   width: 100%;
@@ -14,38 +15,34 @@
 
 /* HOVER CONTENT START */
 .poster-hoverWrapper {
+  opacity: 0;
   position: absolute;
-  top: 0;
-  left: 0;
-  /* padding: 1.5rem 0; */
-  width: 100%;
-  height: 100%;
+  top: -1px;
+  left: -1px;
+  width: calc(100% + 2px);
+  height: calc(100% + 2px);
   display: flex;
   flex-direction: column;
   justify-content: center;
   border-radius: 2rem;
-  /* background: rgb(252, 190, 200, 0.5); */
+  border: 2px solid var(--clr-2);
   background: linear-gradient(rgb(0, 0, 0, 0.85) 35%, rgb(0, 0, 0, 0.2));
-}
-.poster-hoverWrapper {
-  /* border: 5px solid purple; */
-  /* visibility: hidden; */
-  opacity: 0;
   transition: all 0.2s;
 }
 .poster-wrapper:hover .poster-hoverWrapper {
-  /* visibility: visible; */
   opacity: 1;
 }
+
 .poster-hoverContent {
-  margin: auto;
+  /* margin: auto; */
   padding: 2rem 1.4rem;
-  width: 80%;
-  border: 2px solid rgb(200, 200, 200, 0.5);
+  /* width: 80%; */
+  /* border: 3px solid rgb(100, 100, 100, 0.5); */
   border-radius: 2rem;
 }
 .poster-hoverContent > h2 {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
+  /* margin-bottom: 0.25rem; */
 }
 .poster-hoverContent > p {
   margin-bottom: 2.6rem;

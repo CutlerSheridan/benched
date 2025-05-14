@@ -22,13 +22,18 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 - get urls
 - get about text
 - get about links
+- is benched green different?
 
 ##### Style
 
 - add logo line gradient
-- make poster grid responsive
 
 #### CHANGELOG
+
+_1.2.4_
+
+- fix hover wrapper not covering poster corners
+- make poster grid responsive, show three
 
 _1.2.3_
 
