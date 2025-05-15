@@ -6,13 +6,10 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 
 #### TODO NEXT
 
-- add click button icon to posters
-
 #### TODO LATER
 
 ##### Features
 
-- add about section
 - add social links
 
 ##### Behavior
@@ -27,6 +24,12 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 ##### Style
 
 #### CHANGELOG
+
+_1.3.0_
+
+- add click button icon to posters
+- add about section
+- make poster hover font size responsive
 
 _1.2.5_
 

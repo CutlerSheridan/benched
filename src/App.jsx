@@ -40,6 +40,17 @@ function App() {
               url="https://youtube.com"
             />
           </div>
+
+          <div className="home-about">
+            <p>
+              BENCHED is a studio dedicated to making top-tier comedy + sports
+              shows for all platforms.
+            </p>
+
+            <div className="home-contactButtons">
+              <a href="mailto:contact@benched.co">Contact us</a>
+            </div>
+          </div>
         </div>
 
         <footer>© 2025 | Benched, LLC</footer>

@@ -10,7 +10,9 @@ const Poster = ({ keyArt, description, title, url }) => {
         <div className="poster-hoverContent">
           <h2>{title}</h2>
           <p>{description}</p>
-          <a href={url}>Click!</a>
+          <a href={url} className="poster-button">
+            <i class="fa-solid fa-play fa-2xs"></i>
+          </a>
         </div>
       </div>
     </div>
