@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import logoImg from './assets/logo-2-img.png';
 import logoText from './assets/logo-2-text.png';
+import logoTextCropped from './assets/logo-text-cropped.png';
 import './App.css';
 import Poster from './components/Poster';
 import preppedPoster from './assets/posters/fully-prepped.png';
@@ -49,6 +50,9 @@ function App() {
           </div>
 
           <div className="home-about">
+            <div className="home-aboutHeading">
+              <img src={logoTextCropped} />
+            </div>
             <p>
               BENCHED is a studio dedicated to making top-tier comedy + sports
               shows for all platforms.

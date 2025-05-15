@@ -16,11 +16,17 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 
 ##### Behavior
 
-- add compressed poster images
-
 ##### Style
 
+- try grid of four
+
 #### CHANGELOG
+
+_1.3.2_
+
+- add compressed poster images
+- adjust contact button sizes on mobile
+- add heading for about section
 
 _1.3.1_
 
