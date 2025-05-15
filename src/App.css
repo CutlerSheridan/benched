@@ -15,6 +15,7 @@ header {
   align-items: center;
 }
 .home-dividerLine {
+  margin-top: -0.7rem;
   height: 0.4rem;
   background: var(--clr-4);
 }
@@ -32,7 +33,8 @@ header > img {
   width: 100%;
   border-top-left-radius: var(--line-curve);
   border-bottom-left-radius: var(--line-curve);
-  background: linear-gradient(to right, var(--clr-4) 40%, var(--clr-5));
+  background: var(--clr-4);
+  /* background: linear-gradient(to right, var(--clr-4) 40%, var(--clr-5)); */
 }
 /* HEADER END */
 
@@ -64,7 +66,7 @@ a:active {
 
 /* POSTER GRID START */
 .home-posterGrid {
-  --max-poster-width: 27rem;
+  --max-poster-width: 40rem;
   --num-of-cols: 2;
   margin: 0 auto 2rem;
   padding: 0 2rem;
@@ -73,41 +75,50 @@ a:active {
       (var(--num-of-cols) - 1)
   );
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(var(--num-of-cols), 1fr);
   gap: 1.3rem;
   justify-content: center;
 }
 @media only screen and (min-width: 800px) {
-  .home-posterGrid {
+  /* .home-posterGrid {
     --num-of-cols: 3;
-    grid-template-columns: repeat(3, 1fr);
+  } */
+}
+@media only screen and (min-width: 1000px) {
+  .home-posterGrid {
+    --num-of-cols: 4;
   }
 }
 /* POSTER GRID END */
 
 /* ABOUT START */
 .home-about {
-  margin: 5rem auto;
+  margin: 3.5rem auto 2.5rem;
   padding: 0 2.5rem;
   width: fit-content;
   max-width: 40ch;
   text-align: center;
   font-size: 2.2rem;
-  /* background: pink; */
 }
 @media only screen and (min-width: 800px) {
   .home-about {
-    font-size: 3rem;
+    /* font-size: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 100%; */
   }
 }
 .home-aboutHeading {
-  margin: 0 auto 0.6rem;
+  margin: 1rem auto 1.6rem;
+  max-width: 37rem;
+  /* max-width: 20rem; */
 }
 .home-aboutHeading > img {
   width: 100%;
 }
 .home-contactButtons {
-  margin: 2rem auto;
+  margin: auto;
 }
 .home-contactButtons > a {
   margin: 0 0.5rem;
@@ -126,13 +137,22 @@ a:active {
 }
 @media only screen and (min-width: 800px) {
   .home-contactButtons > a > i {
-    top: 0.34rem;
+    /* top: 0.34rem; */
   }
 }
 /* ABOUT END */
 
 footer {
-  width: 100%;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   font-size: 1.3rem;
   text-align: center;
+}
+footer > div {
+  max-width: 12rem;
+}
+footer > div > img {
+  width: 100%;
 }

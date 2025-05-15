@@ -22,6 +22,13 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 
 #### CHANGELOG
 
+_1.3.3_
+
+- make posters much bigger
+- make widescreen about font smaller
+- change order of about heading and text
+- make poster font bigger on widescreen
+
 _1.3.2_
 
 - add compressed poster images

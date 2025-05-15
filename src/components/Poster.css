@@ -1,6 +1,6 @@
 .poster-wrapper {
   position: relative;
-  max-width: 27rem;
+  max-width: var(--max-poster-width);
   display: flex;
   border-radius: 2rem;
 }
@@ -43,11 +43,14 @@
   color: var(--clr-3);
 }
 @media only screen and (min-width: 500px) {
+  .poster-hoverContent {
+    padding: 2rem 10%;
+  }
   .poster-hoverContent > h2 {
     font-size: 2.2rem;
   }
   .poster-hoverContent > p {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
   }
 }
 .poster-button {

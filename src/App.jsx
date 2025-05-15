@@ -44,19 +44,19 @@ function App() {
             <Poster
               keyArt={comingSoonPoster}
               title="Coming Soon"
-              description="More great shows coming soon!"
+              description="More great shows dropping soon!"
               url="https://youtube.com/benched"
             />
           </div>
 
           <div className="home-about">
-            <div className="home-aboutHeading">
-              <img src={logoTextCropped} />
-            </div>
             <p>
               BENCHED is a studio dedicated to making top-tier comedy + sports
               shows for all platforms.
             </p>
+            <div className="home-aboutHeading">
+              <img src={logoTextCropped} />
+            </div>
 
             <div className="home-contactButtons">
               <a href="mailto:contact@benched.co">
@@ -72,7 +72,12 @@ function App() {
           </div>
         </div>
 
-        <footer>© 2025 | Benched, LLC</footer>
+        <footer>
+          <p>© 2025 | Benched, LLC</p>
+          <div>
+            <img src={logoTextCropped} />
+          </div>
+        </footer>
       </div>
     </>
   );
