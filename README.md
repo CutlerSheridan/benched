@@ -6,24 +6,30 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 
 #### TODO NEXT
 
+- adjust contact button colors
+
 #### TODO LATER
 
 ##### Features
 
-- add social links
+- add other image to footer
 
 ##### Behavior
 
-- get compressed poster images
-- coming soon or whatever
-- get poster description copy
-- get urls
-- get about text
-- get social links
+- add compressed poster images
 
 ##### Style
 
 #### CHANGELOG
+
+_1.3.1_
+
+- adjust poster hover gradient
+- add "Coming soon" poster
+- add poster description copy
+- add show urls
+- add social links
+- color social links
 
 _1.3.0_
 

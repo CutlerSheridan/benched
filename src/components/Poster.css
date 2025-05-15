@@ -1,12 +1,8 @@
 .poster-wrapper {
   position: relative;
-  /* width: clamp(15rem, 43%, 27rem); */
-  /* max-width: min(45%, 27rem); */
   max-width: 27rem;
   display: flex;
   border-radius: 2rem;
-  /* background: red; */
-  /* border: 2px solid rgb(100, 100, 100, 0.3); */
 }
 .poster-wrapper > img {
   width: 100%;
@@ -26,7 +22,7 @@
   justify-content: center;
   border-radius: 2rem;
   border: 2px solid var(--clr-2);
-  background: linear-gradient(rgb(0, 0, 0, 0.85) 35%, rgb(0, 0, 0, 0.2));
+  background: linear-gradient(rgb(0, 0, 0, 0.85) 35%, rgb(0, 0, 0, 0.3));
   transition: all 0.2s;
 }
 .poster-wrapper:hover .poster-hoverWrapper {
@@ -64,9 +60,8 @@
   position: relative;
   top: 0.25rem;
   left: 0.1rem;
-  text-align: center;
-  margin: auto;
   width: 1.5rem;
   height: 3rem;
+  text-align: center;
 }
 /* HOVER CONTENT END */
