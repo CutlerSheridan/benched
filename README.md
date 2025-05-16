@@ -6,21 +6,21 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 
 #### TODO NEXT
 
-- adjust contact button colors
-
 #### TODO LATER
 
 ##### Features
-
-- add other image to footer
 
 ##### Behavior
 
 ##### Style
 
-- try grid of four
-
 #### CHANGELOG
+
+_2.0.0_
+
+- make About line a single line without wrapping
+- adjust contact button colors
+- clean up comments
 
 _1.3.3_
 
@@ -34,6 +34,8 @@ _1.3.2_
 - add compressed poster images
 - adjust contact button sizes on mobile
 - add heading for about section
+- add other image to footer
+- put four on grid
 
 _1.3.1_
 

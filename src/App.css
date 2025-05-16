@@ -102,17 +102,13 @@ a:active {
 }
 @media only screen and (min-width: 800px) {
   .home-about {
-    /* font-size: 2rem;
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    max-width: 100%; */
+    margin-top: 3rem;
+    max-width: 100%;
   }
 }
 .home-aboutHeading {
   margin: 1rem auto 1.6rem;
   max-width: 37rem;
-  /* max-width: 20rem; */
 }
 .home-aboutHeading > img {
   width: 100%;
@@ -123,7 +119,17 @@ a:active {
 .home-contactButtons > a {
   margin: 0 0.5rem;
   padding: 1.5rem 1rem 1rem;
-  border: none;
+  border-color: transparent;
+  color: var(--clr-4);
+}
+@media only screen and (hover: hover) {
+  .home-contactButtons > a:hover {
+    background: transparent;
+    border: 2px solid var(--clr-1);
+  }
+  .home-contactButtons > a:active {
+    background: var(--clr-1);
+  }
 }
 .home-contactButtons > a > i {
   position: relative;
@@ -133,12 +139,6 @@ a:active {
   width: 4.5rem;
   text-align: center;
   font-size: 4rem;
-  color: var(--clr-4);
-}
-@media only screen and (min-width: 800px) {
-  .home-contactButtons > a > i {
-    /* top: 0.34rem; */
-  }
 }
 /* ABOUT END */
 
