@@ -33,7 +33,7 @@ function App() {
               keyArt={oldBallPoster}
               title="Old Ball"
               description="After 25 years stuck in a shed, OLD BALL is finally free—and ready to talk trash like it’s 1999."
-              url="https://www.tiktok.com/@oldballshow"
+              url="https://www.instagram.com/oldballshow/reels/"
             />
             <Poster
               keyArt={preppedPoster}
