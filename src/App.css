@@ -86,7 +86,7 @@ a:active {
 }
 @media only screen and (min-width: 1000px) {
   .home-posterGrid {
-    --num-of-cols: 4;
+    --num-of-cols: 3;
   }
 }
 /* POSTER GRID END */

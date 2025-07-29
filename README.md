@@ -16,6 +16,12 @@ Used React for this in anticipation of the site becoming much bigger in time. Ho
 
 #### CHANGELOG
 
+_2.0.2_
+
+- move Old Ball first
+- remove Fully Prepped
+- change large screen grid columns from 4 to 3
+
 _2.0.1_
 
 - change OLD BALL link
